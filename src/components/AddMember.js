@@ -1,14 +1,9 @@
 import React, {useState} from 'react';
 import App from '../App';
 
-const it = [
-    {name: "Puss", role: "ey"}
-]
-
 
 
 export default function AddMember(props) {
-    console.log(props)
 
 
     const submit = (evt) => {
