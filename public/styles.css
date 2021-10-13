@@ -1,0 +1,51 @@
+.topBar {
+    width: 100%;
+    display: flex;
+    border: 1px solid steelblue;
+    background-color: lightblue;
+}
+
+.title {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+}
+
+.additionHeader {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardHolder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+    width: 26%;
+}
+
+.name {
+    width: 100%;
+}
+
+img {
+    width: 200px;
+    height: 290px;
+}
+
+.role {
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+}
